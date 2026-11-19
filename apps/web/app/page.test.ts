@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from "vitest";
 
-describe('web scaffold', () => {
-  it('identifies the product', () => {
-    expect('Archify Intelligence').toContain('Archify');
+describe("web scaffold", () => {
+  it("identifies the product", () => {
+    expect("Archify Intelligence").toContain("Archify");
   });
 });

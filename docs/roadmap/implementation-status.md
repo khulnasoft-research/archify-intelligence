@@ -9,6 +9,12 @@
 - [x] Domain graph and evidence types
 - [x] Graph delta starter
 - [x] Repository path boundary helper
+- [x] Full P2 Drizzle schema for core platform tables
+- [x] Generated initial SQL migration (`packages/database/drizzle`)
+- [x] Analysis run state machine and deterministic run idempotency keys
+- [x] BullMQ job lifecycle helpers (retry policy, heartbeat, cancellation, dead letters)
+- [x] Tenant access helper and unit tests
+- [x] Canonical graph / sidecar / artifact / run JSON Schema generation
 - [x] Initial Drizzle schema baseline
 - [x] Initial provider routing with local-only egress guard
 - [x] Jev adapter boundary and request normalization scaffold (disabled until contract verification gate passes)
@@ -26,9 +32,10 @@
 - [ ] Complete live Jev response contract against current official docs and sandbox
 - [ ] Implement and contract-test local Ollama/OpenAI-compatible provider
 - [ ] Authentication, RBAC and tenant isolation
-- [ ] Database repositories, migrations and row-level security
+- [ ] Database repositories and PostgreSQL row-level security (migration generated, not yet applied)
+- [ ] Redis/BullMQ live integration suite in CI (helpers are unit-tested)
 - [ ] Repository checkout sandbox and AST analysis
-- [ ] Queue processors, cancellation and dead-letter handling
+- [ ] Concrete BullMQ processors for each pipeline stage
 - [ ] Archify IR mapping and real `finalize` invocation
 - [ ] Immutable object storage and artifact-origin isolation
 - [ ] Frontend product journeys and evidence viewer

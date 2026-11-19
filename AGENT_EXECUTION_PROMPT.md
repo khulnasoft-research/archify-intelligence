@@ -27,6 +27,7 @@ You are the principal engineer implementing **Archify Intelligence**, a producti
 Implement P0, then P1, then each milestone in sequence. Use small vertical slices and PR-sized commits. Preserve user changes. Avoid premature microservices. Do not import undocumented Archify internals. Pin the upstream commit and use the documented `finalize` contract.
 
 For every milestone:
+
 1. Inspect existing repo/branch and read package-specific instructions.
 2. Identify exact requirements, affected packages, trust boundaries, and failure cases.
 3. Implement the minimum complete slice.

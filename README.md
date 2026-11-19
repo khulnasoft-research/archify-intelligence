@@ -46,7 +46,8 @@ pnpm format:check
 
 ## Current scaffold boundaries
 
-- P0/P1 foundation: workspace, contracts, environment validation, health API, worker/CLI shells, database baseline, Docker Compose, CI and ADRs.
+- P0/P1 foundation: workspace, contracts, environment validation, health API, worker/CLI shells, Docker Compose, CI and ADRs.
+- P2 foundation: full core database schema and migration, analysis run state machine, run/artifact idempotency, BullMQ lifecycle helpers, tenant access helpers, and generated JSON Schema documents.
 - Provider ports and safe routing are implemented as initial foundations; live Jev requests remain disabled until `JEV_CONTRACT_VERIFIED=true` is set after official contract tests. The local inference adapter is an explicit P4 TODO.
 - The Archify adapter is an interface and integration boundary. Pin a reviewed upstream Archify commit and inspect its current schemas before enabling rendering.
 - Repository scanning, full AST extraction, complete auth/RBAC, production artifact storage, and a polished web UI are later milestones.
