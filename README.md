@@ -55,3 +55,4 @@ pnpm format:check
 ## Repository layout
 
 See [`docs/architecture/overview.md`](docs/architecture/overview.md), [`docs/roadmap/implementation-status.md`](docs/roadmap/implementation-status.md), and [`SCAFFOLD_REPORT.md`](SCAFFOLD_REPORT.md).
+
